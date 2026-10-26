@@ -1,8 +1,8 @@
 public class Abecedarian {
 
    public static void main(String[] args) {
-        System.out.println(isAbecedarian("abdest"));
-        System.out.println(isAbecedarian("biopsy"));
+      System.out.println(isAbecedarian("abdest"));
+      System.out.println(isAbecedarian("biopsy"));
     }
     public static boolean isAbecedarian(String word) {
         word = word.toLowerCase();
